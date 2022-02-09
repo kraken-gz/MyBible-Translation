@@ -418,35 +418,16 @@
         u Bibliji (vidi podešavanja navigacije).
     </string>
 
-    <!-- !!! Please translate from here and move this marker line to the bottom when done. -->
-
-    <!--
-    <string name="tip_bible_window_side_panel">Bookmarks side panel</string>
-    <string name="tip_bible_window_side_panel_tip">The side panel can be pulled from the left edge by a gentle horizontal
-        fling from the edge to the right. Side panel provides convenient access to the bookmarks of a selected
-        category.
-        \n\u25cf The side panel lets you see your bookmarks in different representations: bookmarked Bible text only,
-        your comments only, or both. Your can choose one of these using the <b>content control button</b>, in the lower right corner.
-        \n\u25cf The side panel lets you search/filter by fragments of words that you can enter in the search field.
-        The search field is shown by default but can be hidden if you do not needed it.
-        \n\u25cf Sometimes it is practical to see all the bookmarks you have made in a particular book or a part of the Bible.
-        You can then use the book set selection control.
-        \n\u25cf You can change the way your bookmarks are sorted .
-    </string>
-    -->
-
-    <!-- !!!  Please alter the below text to read like the above.
-         the essense of the change: a long touch on the content control button is replaced with a simple tap. -->
     <string name="tip_bible_window_side_panel">Bočni panel obeleživača</string>
     <string name="tip_bible_window_side_panel_tip">Bočni panel se može povući sa leve ivice blagim horizontalnim položajem idući do ivice udesno.
         Bočni panel omogućava lak pristup obeleživačima odabrane kategorije obeleživača.
         \n\u25cf Bočni panel vam omogućava da vidite vaše obeleživače u različitim prikazima: samo obeleženi tekst Biblije,
         samo vaši komentari, ili oboje. Možete izabrati jedno od ovih koristeći <b>dugme kontrole sadržaja</b>, u donjem desnom uglu.
         \n\u25cf Bočni panel vam omogućava da pretražite/filtirate po delovima reči koje unesete u polje za pretraživanje.
-        Polje za pretraživanje je prikazano podrazumevano, ali možete ga sakriti ako vam ne treba - koristeći <b>dugi dodir na dugme kontrole sadržaja</b>.
+        Polje za pretraživanje je prikazano podrazumevano, ali možete ga sakriti ako vam ne treba - koristeći <b>kratak dodir na dugme kontrole sadržaja</b>.
         \n\u25cf Ponekad je praktično da vidite sve obeleživače koje ste napravili u pojedinoj knjizi ili delu Biblije.
-        Možete zatim koristiti set knjiga kontrole izbora - koristite dugi dodir na dugme kontrole izbora da ga sakrijete ili prikažete.
-        \n\u25cf Možete promeniti način na koji su obeleživači sortirani, ponovo koristeći dugi dodir na dugme kontrole sadržaja.
+        Možete zatim koristiti set knjiga kontrole izbora - koristite kratak dodir na dugme kontrole izbora da ga sakrijete ili prikažete.
+        \n\u25cf Možete promeniti način na koji su obeleživači sortirani, ponovo koristeći kratak dodir na dugme kontrole sadržaja.
     </string>
 
 </resources>
