@@ -971,20 +971,20 @@
     </string>
     <string name="message_confirm_modules_updating_with_extra_files_modified">
         Ažuriraćete %1$s.
-        \nOvo uključuje sledeće dodatne datoteke koje imate, koje će biti
+        \nOvo uključuje sledeće dodatne fajlovi koje imate, koje će biti
         ažurirano nakon preuzimanja:\n
         \n%2$s\n
-        \nMožete odabrati ažuriranje svih datoteka ili samo neizmenjene.
+        \nMožete odabrati ažuriranje svih fajl ili samo neizmenjene.
     </string>
     <string name="message_confirm_modules_deleting_with_extra_files_modified">
         Obrisaćete %1$s.
-        \nOvo uključuje sledeće dodatne datoteke koje imate, koje će biti
+        \nOvo uključuje sledeće dodatne fajlovi koje imate, koje će biti
         ažurirano nakon preuzimanja:\n
         \n%2$s\n
-        \nMožete izabrati brisanje svih datoteka ili samo one koje nisu izmenjene.
+        \nMožete izabrati brisanje svih fajl ili samo one koje nisu izmenjene.
     </string>
     <string name="message_confirm_deletion_of_still_used_files">
-        Sledeće datoteke se i dalje koriste:\n
+        Sledeće fajlovi se i dalje koriste:\n
         \n%s\n
         \nŽelite li ih izbrisati ili zadržati?
     </string>
@@ -1125,7 +1125,7 @@
         name="message_memory_access_request_explanation">MyBible će zahtevati pristup podrazumevanoj memoriji na vašem uređaju
         da bi se moduli i vaši podaci skladištili na takav način da se ne brišu čak i kada se aplikacija deinstalira
         \n
-        \nU zajedničkoj memoriji MyBible će modifikovati fajlove samo u folderu /%s; neće čitati niti mijenjati datoteke
+        \nU zajedničkoj memoriji MyBible će modifikovati fajlove samo u folderu /%s; neće čitati niti mijenjati fajlovi
         kreirane drugim aplikacijama.\n
         \nAko ne odobrite pristup, MyBible će čuvati svoje fajlove u područje podataka aplikacije
     </string>
@@ -1321,7 +1321,7 @@
     <string name="label_word_underline_styles">Stilovi podvučenog teksta</string>
     <string name="check_box_check_underline_color_and_style_together">Označite boju podvlačenja i stil zajedno.</string>
     <string name="title_welcome">Dobrodošli u MyBible</string>
-    <string name="message_about_modules">MyBible se zasniva na %s.\nModul je datoteka za preuzimanje
+    <string name="message_about_modules">MyBible se zasniva na %s.\nModul je fajl za preuzimanje
         koji donosi neki materijal koji će se koristiti u okviru MyBible: biblijski tekst
         (prevedeno na neki jezik ili na jezik originalnih biblijskih rukopisa), biblijski komentar, rečnik itd.
     </string>
@@ -1461,7 +1461,6 @@
     <string name="message_reading_plan_set_first_unread_to_today">Pomerite datum početka plana čitanja,
         tako da je prva stavka koju još niste pročitali / prelistali premeštena danas?
     </string>
-    <!-- !!! Please change in the below text "a few seconds" to "a little", as it can actually take about a minite or two. -->
     <string name="message_preparing_search_mirror">Priprema Biblijskog modula za brzo pretraživanje.
         Ova operacija je potrebna samo jednom kada se modul učita ili ažurira. Sačekajte na kratko.
         \n\nNaknadne pretrage će biti veoma brze!
@@ -1601,123 +1600,124 @@
     <!-- !!! In the text below, please replace the word "Save" with the word "Unzip". -->
     <string name="message_word_enhancements_for_tts_set_email_text">Skup poboljšanja reči za TTS u MyBible \'%s\' je u prilogu.
         Pošalji povratne informacije.
-        \n\nSačuvajte priloženu datoteku u MyBible/user/settings direktorijum na Android uređaju.
+        \n\nRaspakujte priloženu datoteku u MyBible/user/settings direktorijum na Android uređaju.
     </string>
     <string name="message_downloaded_word_enhancements_for_tts_google_tts_apply_to_profiles">
-        The downloaded word enhancements for TTS \'%s\' can also be selected for the following profiles:\n%s
+        Preuzeta poboljšanja reči za TTS \'%s\' takođe mogu biti izabrani za sledeće profile:\n%s
     </string>
     <string name="message_downloaded_word_enhancements_for_tts_are_for_google_tts">
-        Downloaded word enhancements for TTS target the Google TTS engine.
+        Preuzeta poboljšanja reči za TTS target the Google TTS engine.
     </string>
     <string name="message_downloaded_word_enhancements_for_tts_no_google_tts">
-        Google TTS engine is not found, please install it using system TTS settings and make it a default TTS engine.
+        Google TTS engine nije pronađen, instalirajte ga koristeći sistemska TTS podešavanja i postavite ga kao podrazumevani TTS engine.
     </string>
     <string name="message_downloaded_word_enhancements_for_tts_google_tts_is_not_default">
-        Google TTS engine is not a default one, please make it a default TTS engine using system TTS settings.
+        Google TTS engine nije podrazumevani, molimo vas da ga postavite kao podrazumevani TTS engine koristeći sistemska TTS podešavanja.
     </string>
-    <string name="button_system_tts_settings">System TTS settings</string>
-    <string name="title_find_whole_word">Find a whole word</string>
-    <string name="check_box_search_results_highlight_words_of_jesus_and_inserted_words">Highlight words of Jesus (in bold)
-        and words added by translators (in italic)\n(works only for Bible modules having a corresponding markup)
+    <string name="button_system_tts_settings">Sistemska TTS podešavanja</string>
+    <string name="title_find_whole_word">Pronađite celu reč</string>
+    <string name="check_box_search_results_highlight_words_of_jesus_and_inserted_words">Istaknite reči Isusa (boldirano)
+        i reči koje su dodali prevodioci (iskošeno)\n(radi samo za Biblijske module koji imaju odgovarajuću oznaku (markup))
     </string>
-    <string name="label_show_strong_numbers">Show Strong\'s numbers</string>
-    <string name="check_box_search_results_show_strong_numbers">Show Strong\'s numbers\n(works only for Bible modules having embedded Strong\'s numbers)</string>
-    <string name="radio_button_show_strong_numbers_after_marked_words_only">only after found (marked) words</string>
-    <string name="radio_button_show_strong_numbers_after_all_words">after all words</string>
-    <string name="label_search_results_representing_settings">Representing of results</string>
-    <string name="check_box_search_words_in_exact_order">Search words in the specified order</string>
-    <string name="check_box_accounting_for_accents">Search accounting for accents and similar characters</string>
-    <string name="value_entry_max_distance_in_verses_between_sought_words">Max number of verses between sought words:</string>
-    <string name="menu_word_enhancement_for_current_position_initially">For current position initially</string>
-    <string name="check_box_balloon_on_the_left">Balloon on the left</string>
-    <string name="check_box_balloon_on_the_right">Balloon on the right</string>
-    <string name="check_box_use_gestures">Recognize gestures</string>
-    <string name="check_box_two_finger_tap_selects_position">Tap with two fingers to select Bible position</string>
-    <string name="check_box_three_finger_tap_toggles_night_mode">Tap with three fingers to toggle night mode</string>
-    <string name="label_min_horizontal_fling_distance">Min horizontal swipe distance</string>
-    <string name="label_1_finger_swipe_left_action">One finger swipe left action:</string>
-    <string name="label_1_finger_swipe_right_action">One finger swipe right action:</string>
-    <string name="label_2_finger_swipe_left_action">Two fingers swipe left action:</string>
-    <string name="label_2_finger_swipe_right_action">Two fingers swipe right action:</string>
-    <string name="action_none">None</string>
-    <string name="action_next_chapter">Next chapter</string>
-    <string name="action_beginning_of_chapter_or_previous_chapter">Beginning of chapter or previous chapter</string>
-    <string name="action_next_book">Next book</string>
-    <string name="action_previous_book">Previous book</string>
-    <string name="item_copy_selected_verses">Copy selected verses, only Bible text upon long touch</string>
-    <string name="check_box_cancel_individual_words_selection_mode_after_usage">Cancel individual words selection mode after its usage</string>
-    <string name="label_enclosing_quotes">Enclosing quotes to use:</string>
-    <string name="label_quotes_phrase">Quoted phrase</string>
-    <string name="check_box_search_distinguishing_quote_and_dash_types">Search distinguishing quote and dash types</string>
-    <string name="item_use_morphology_in_strong_number_usage">Use morphology</string>
-    <string name="item_sort_strong_number_usage_summary_alphabetically">Alphabetical summary</string>
-    <string name="item_sort_strong_number_usage_summary_in_column">Summary in column</string>
-    <string name="item_strong_number_usage_copy_verses_with_strong_numbers">Copy with Strong\'s numbers</string>
-    <string name="check_box_show_reading_plans_advancing_and_lagging">Show advancing and lagging</string>
-    <string name="check_box_take_module_into_account_in_navigation_history">In navigation history take into account switching between modules</string>
-    <string name="item_sort_strong_number_usage_summary_by_morphology">Summary by morphology first</string>
-    <string name="title_background_work_notification_channel_name">Background work</string>
-    <string name="title_background_work_notification_channel_description">MyBible shows a notification
-        to inform the user and the system that some background work is in progress.
+    <string name="label_show_strong_numbers">Pokaži Strong\'s brojeve</string>
+    <string name="check_box_search_results_show_strong_numbers">Pokaži Strong\'s brojeve\n(radi samo za biblijske module koji imaju ugrađene Strong\'s brojeve)</string>
+    <string name="radio_button_show_strong_numbers_after_marked_words_only">samo posle pronađenih (označenih) reči</string>
+    <string name="radio_button_show_strong_numbers_after_all_words">posle svih reči</string>
+    <string name="label_search_results_representing_settings">Predstavljanje rezultata</string>
+    <string name="check_box_search_words_in_exact_order">Pretražite reči navedenim redosledom</string>
+    <string name="check_box_accounting_for_accents">Pretražite računajući akcente i slične znakove</string>
+    <string name="value_entry_max_distance_in_verses_between_sought_words">Maksimalan broj stihova između traženih reči:</string>
+    <string name="menu_word_enhancement_for_current_position_initially">Za trenutnu poziciju na početku</string>
+    <string name="check_box_balloon_on_the_left">Balon sa leve strane</string>
+    <string name="check_box_balloon_on_the_right">Balon sa desne strane</string>
+    <string name="check_box_use_gestures">Prepoznajte gestove</string>
+    <string name="check_box_two_finger_tap_selects_position">Dodirnite sa dva prsta da biste izabrali položaj Biblije</string>
+    <string name="check_box_three_finger_tap_toggles_night_mode">Dodirnite sa tri prsta da biste uključili noćni režim</string>
+    <string name="label_min_horizontal_fling_distance">Minimalna udaljenost horizontalnog prevlačenja</string>
+    <string name="label_1_finger_swipe_left_action">Prevlačenje jednim prstom ulevo:</string>
+    <string name="label_1_finger_swipe_right_action">Prevlačenje jednim prstom udesno:</string>
+    <string name="label_2_finger_swipe_left_action">Prevlačenje sa dva prsta ulevo:</string>
+    <string name="label_2_finger_swipe_right_action">Prevlačenje sa dva prsta udesno:</string>
+    <string name="action_none">Nijedan</string>
+    <string name="action_next_chapter">Sledeće poglavlje</string>
+    <string name="action_beginning_of_chapter_or_previous_chapter">Početak poglavlja ili prethodnog poglavlja</string>
+    <string name="action_next_book">Sledeća knjiga</string>
+    <string name="action_previous_book">Prethodna knjiga</string>
+    <string name="item_copy_selected_verses">Kopirajte odabrane stihove, samo Biblijski tekst nakon dugog dodira</string>
+    <string name="check_box_cancel_individual_words_selection_mode_after_usage">Otkaži režim izbora pojedinačnih reči nakon njegove upotrebe</string>
+    <string name="label_enclosing_quotes">Priloženi citati za upotrebu:</string>
+    <string name="label_quotes_phrase">Citirana fraza</string>
+    <string name="check_box_search_distinguishing_quote_and_dash_types">Pretražite različite vrste citata i crtica</string>
+    <string name="item_use_morphology_in_strong_number_usage">Koristite morfologiju</string>
+    <string name="item_sort_strong_number_usage_summary_alphabetically">Rezime po abecednom redu</string>
+    <string name="item_sort_strong_number_usage_summary_in_column">Rezime u koloni</string>
+    <string name="item_strong_number_usage_copy_verses_with_strong_numbers">Kopiraj sa Strong\'s brojevima</string>
+    <string name="check_box_show_reading_plans_advancing_and_lagging">Pokažite napredovanje i zaostajanje</string>
+    <string name="check_box_take_module_into_account_in_navigation_history">U istoriji navigacije uzmite u obzir prebacivanje između modula</string>
+    <string name="item_sort_strong_number_usage_summary_by_morphology">Prvo rezime po morfologiji</string>
+    <string name="title_background_work_notification_channel_name">Rad u pozadini</string>
+    <string name="title_background_work_notification_channel_description">MyBible prikazuje obaveštenje
+        da obavesti korisnika i sistem da je neki rad u pozadini u toku.
     </string>
-    <string name="message_background_work_downloading">Downloading …</string>
-    <string name="message_background_work_preparing_bible_module_for_search">Preparing Bible module for search …</string>
-    <string name="message_background_work_indexing_dictionaries">Indexing dictionaries …</string>
-    <string name="message_background_work_tts">TTS in progress …</string>
-    <string name="message_background_work_search_in_bible">Searching in Bible …</string>
-    <string name="check_box_from_sentence_beginning">From sentence beginning</string>
-    <string name="check_box_entire_sentence">Entire sentence</string>
-    <string name="title_share_bookmark_comments">Share bookmark comments</string>
-    <string name="title_select_notes">Select notes</string>
-    <string name="button_create_folder">Create folder</string>
-    <string name="button_create">Create</string>
-    <string name="button_open">Open</string>
-    <string name="radio_button_notes_navigation_using_dedicated_window">Notes navigation using a dedicated window</string>
-    <string name="radio_button_notes_navigation_using_popup">Notes navigation using a popup menu</string>
-    <string name="message_notes_folder_deletion_nested_items">There are totally %1$d nested folders and %2$d nested notes to be deleted.</string>
-    <string name="message_notes_confirm_deletion_several_folders">Delete %d selected folders?</string>
-    <string name="message_notes_confirm_deletion_several_notes">Delete %d selected notes?</string>
-    <string name="message_notes_confirm_deletion_several_folders_and_notes">Delete %1$d selected folders and %2$d selected notes?</string>
-    <string name="message_cannot_move_already_exist">Cannot move selected there, the following already exist:\n\n%s</string>
-    <string name="button_first_notes">First notes</string>
-    <string name="button_previous_notes">Previous notes</string>
-    <string name="button_next_notes">Next notes</string>
-    <string name="button_last_notes">Last notes</string>
-    <string name="check_box_show_notes_from_nested_folders">nested</string>
-    <string name="message_data_directory_auto_relocation_to_app_private_storage">Starting the next MyBible version,
-        data directory can only be located in the app-private storage.\n
-        \nThis is because of security-related changes in Android starting with Android 11
-        and Google Play no longer allowing to publish apps that share their files with other apps.\n
-        \nMyBible would like to move its files to the app-private storage area now, so that the next
-        MyBible version can keep using its already existing data on your device.\n
-        \nIf you use MyBible data synchronization (see the \"Synchronisation\" section of the \"About\"
-        text available from the MyBible menu), you will need to update your external
-        data synchronization app configuration to work with the new MyBible data directory %s;
-        the data synchronization app could ask for a needed permission to get to the /Android/data
-        directory on your device.
+    <string name="message_background_work_downloading">Preuzimanje …</string>
+    <string name="message_background_work_preparing_bible_module_for_search">Priprema Biblijskog modula za pretragu …</string>
+    <string name="message_background_work_indexing_dictionaries">Indeksiranje rečnika …</string>
+    <string name="message_background_work_tts">TTS u toku …</string>
+    <string name="message_background_work_search_in_bible">Pretraživanje u Bibliji …</string>
+    <string name="check_box_from_sentence_beginning">Od početka rečenice</string>
+    <string name="check_box_entire_sentence">Cela rečenica</string>
+    <string name="title_share_bookmark_comments">Delite komentare obeleživača</string>
+    <string name="title_select_notes">Izaberite beleške</string>
+    <string name="button_create_folder">Napraviti folder</string>
+    <string name="button_create">Kreiraj</string>
+    <string name="button_open">Otvori</string>
+    <string name="radio_button_notes_navigation_using_dedicated_window">Navigacija po beleškama preko zesebnog prozora</string>
+    <string name="radio_button_notes_navigation_using_popup">Navigacija po beleškama pomoću iskačućeg menija</string>
+    <string name="message_notes_folder_deletion_nested_items">Ima totalno %1$d ugnežđeni folderi i %2$d ugnežđene beleške koje treba izbrisati.</string>
+    <string name="message_notes_confirm_deletion_several_folders">Izbriši %d izabrane fascikle?</string>
+    <string name="message_notes_confirm_deletion_several_notes">Izbriši %d izabrane beleške?</string>
+    <string name="message_notes_confirm_deletion_several_folders_and_notes">Izbriši %1$d izabrane fascikle i %2$d izabrane beleške?</string>
+    <string name="message_cannot_move_already_exist">Nije moguće premestiti izabrano tamo, sledeće već postoje:\n\n%s</string>
+    <string name="button_first_notes">Prve beleške</string>
+    <string name="button_previous_notes">Prethodne beleške</string>
+    <string name="button_next_notes">Sledeće beleške</string>
+    <string name="button_last_notes">Zadnje beleške</string>
+    <string name="check_box_show_notes_from_nested_folders">ugnježdeno</string>
+    <string name="message_data_directory_auto_relocation_to_app_private_storage">Počevši od sledećeg MyBible verzije,
+        folder podataka može da se nalazi samo u privatnom skladištu aplikacije.\n
+        \nTo je zbog bezbednosnih promena u Androidu počevši od Androida 11
+        i Google Play više ne dozvoljava objavljivanje aplikacija koje dele svoje fajlove sa drugim aplikacijama.\n
+        \nMyBible želi da premesti svoje fajlove u oblast privatnog skladištenja aplikacije sada, tako da sledeća
+        verzija MyBible može nastaviti da koristi svoje već postojeće podatke na vašem uređaju.\n
+        \nAko koristite MyBible sinhronizaciju podataka (vidi \"Sinhronizacija\" odeljak na \"O nama\"
+        tekst dostupan iz menija MyBible), moraćete da ažurirate svoju eksterni
+        konfiguraciju aplikacije za sinhronizaciju podataka za rad sa novim MyBible folder podataka %s;
+        aplikacija za sinhronizaciju podataka može tražiti potrebnu dozvolu da dođe do /Android/data
+        foldera na vašem uređaju.
     </string>
-    <string name="check_box_follow_system_dark_mode">Follow system dark mode</string>
-    <string name="check_box_module_abbreviation_in_parentheses">module abbreviation in parentheses</string>
-    <string name="title_privacy_policy">Privacy policy</string>
-    <string name="message_privacy_policy">MyBible has a simple and safe %s</string> <!-- "At runtime, the app will replace %s with a hyperlink "privacy policy" -->
-    <string name="button_accept">Accept</string>
-    <string name="button_decline">Decline</string>
-    <string name="button_later">Later</string>
-    <string name="check_box_abbreviate_book_names">Abbreviate book names</string>
-    <string name="label_bible_module_to_take_book_names_from">Bible module to take book names from:</string>
-    <string name="value_entry_background_opacity_percentage">Background opacity:</string>
-    <string name="label_sample_home_screen_background_color">Sample home screen background color:</string>
-    <string name="label_position_text">Position text</string>
-    <string name="label_comment_text">Comment text</string>
-    <string name="label_verse_text">Verse text</string>
-    <string name="check_box_ancillary_info_below">Ancillary info below verse text</string>
-    <string name="value_entry_ancillary_info_indent">Ancillary info indent:</string>
-    <string name="check_box_separate_night_colors">Separate night colors</string>
-    <string name="label_sample_position">Book 1:23</string>
-    <string name="label_sample_comment">Sample comment</string>
-    <string name="radio_button_custom_colors">Custom colors and transparency</string>
-    <string name="check_box_invisible_widget_button_next_and_previous">Make the \"Next\" and \"Previous\"
-        buttons on the widget invisible (no icon)
+    <string name="check_box_follow_system_dark_mode">Pratite sistemski tamni režim</string>
+    <string name="check_box_module_abbreviation_in_parentheses">skraćenica modula u zagradi</string>
+    <string name="title_privacy_policy">Pravila o privatnosti</string>
+    <string name="message_privacy_policy">MyBible ima jednostavan i siguran %s</string> 
+	 
+    <string name="button_accept">Prihvati</string>
+    <string name="button_decline">Odbij</string>
+    <string name="button_later">Kasnije</string>
+    <string name="check_box_abbreviate_book_names">Skraćeni nazivi knjiga</string>
+    <string name="label_bible_module_to_take_book_names_from">Biblijski modul za preuzimanje imena knjiga:</string>
+    <string name="value_entry_background_opacity_percentage">Prozirnost pozadine:</string>
+    <string name="label_sample_home_screen_background_color">Primer boje pozadine početnog ekrana:</string>
+    <string name="label_position_text">Tekst pozicije</string>
+    <string name="label_comment_text">Tekst komentara</string>
+    <string name="label_verse_text">Tekst stiha</string>
+    <string name="check_box_ancillary_info_below">Pomoćne informacije ispod teksta stiha</string>
+    <string name="value_entry_ancillary_info_indent">Uvlaka za pomoćne informacije:</string>
+    <string name="check_box_separate_night_colors">Odvoji noćne boje</string>
+    <string name="label_sample_position">Knjiga 1:23</string>
+    <string name="label_sample_comment">Primer komentara</string>
+    <string name="radio_button_custom_colors">Prilagođene boje i transparentnost</string>
+    <string name="check_box_invisible_widget_button_next_and_previous">Napraviti \"Sledeći\" i \"Prethodni\"
+        dugmad na vidžetu nevidljiva (bez ikonice)
     </string>
 
 </resources>

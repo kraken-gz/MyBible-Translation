@@ -417,7 +417,7 @@
         \n\u25cf Podcrtana ikona označava prozor odabran kao ciljni prozor za otvaranje referenci
         u Bibliji (vidi podešavanja navigacije).
     </string>
-
+    
     <string name="tip_bible_window_side_panel">Bočni panel obeleživača</string>
     <string name="tip_bible_window_side_panel_tip">Bočni panel se može povući sa leve ivice blagim horizontalnim položajem idući do ivice udesno.
         Bočni panel omogućava lak pristup obeleživačima odabrane kategorije obeleživača.
