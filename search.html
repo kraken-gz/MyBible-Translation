@@ -1,0 +1,259 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</head>
+<body>
+<h3>Search Possibilities in General</h3>
+
+<p>A <b>quick and simple</b> (and also typical) search for a particular Bible text in MyBible is to type
+    distinctive parts of words you are looking for, - all of them to be simply present in a single verse.
+    This helps you instantly find a verse which someone has just cited to you.
+    Remember: distinctive parts of words are the key to quick and focused results.</p>
+
+<p>You can type <b>whole words</b>, but MyBible will not automatically look for variations of those words,
+    unless you use the asterisk and type something like <em>pleas*</em> -
+    then MyBible will find <em>pleased</em>, <em>pleasing</em>, <em>please</em>.
+</p>
+
+<p>If <b>the order</b> of typed words is important to find the exact place you are looking for,
+    tell MyBible to mind the order of words while allowing some other words between them.
+    There is a search setting for that, but you can also command that to MyBible
+    for this particular search by specifying <em>+r</em> somewhere in your entered text (usually at the end).
+</p>
+
+<p>It is not infrequent when words of a citation you look for are not in a single verse but
+    are spread between <b>several nearby verses</b>. To find that, you still enter distinctive
+    parts of words you are looking for and add at the end <em>+1</em> or, say, <em>+10</em>. This tells
+    MyBible that verses that constitute your sought fragment can be up to 1 (or 10, respectively)
+    verses apart from each other. Specifying <em>+0</em> will make MyBible look for your words in
+    a single verse for this particular search.
+</p>
+
+<p>If you know an <b>exact phrase</b> you are looking for, that is, a sequence of words with no other words
+    between them, type those words and enclose them into <b>double quotes</b>, e.g.
+    <em>"who told you that"</em>, <em>"the fath* of nimr*"</em>. If you are looking for a double quote character
+    itself, enter it twice, e.g. <em>"said ""I am the god"</em>
+</p>
+
+<p>You can also tell MyBible what words <b>shall not be present</b> in the search results, -
+    using <em>~</em> before such words. For example, <em>god almighty ~lord +0</em> will give you
+    verses mentioning <em>God Almighty</em> but not <em>LORD</em> in a single verse.
+</p>
+
+<p>You can tell MyBible what <b>Bible books to search in</b> - by selecting one of popular groups of books
+    or by fine-tuning a custom subset of books to search in.
+</p>
+
+<p>You can search for <b>highlighted/underlined words</b> in a Bible module, any type of highlighting
+    or a particular highlight/underline color and/or underline type. Actually, if you set
+    a corresponding search setting and leave the text to search empty, MyBible will find and show
+    all your highlighted places in that Bible module.
+</p>
+
+<p>In search results, found places are <b>highlighted with color</b>. Words highlighted or underlined by you
+    in the Bible text are shown <b>underlined</b>.
+</p>
+
+<p>In search results you can see <b>words of Jesus</b> in bold and <b>words added by translators</b> in italic -
+    there is a corresponding search setting for that (it is on by default; you can suppress that
+    for a concrete search by adding <em>-m</em> in the text to search for).
+</p>
+
+<p>There are also settings to <b>show Strong's numbers</b> in search results.
+</p>
+
+<p>The search settings window contains all the settings for filtering and for representing
+    of search results. Please note a hint on the right of every setting, telling you what special
+    characters (like <em>+w</em>, <em>+r</em>, <em>+2</em>, etc.) to enter in the text to search
+    for in order to force particular <b>settings for a concrete search</b>.
+</p>
+
+<h3>Wildcards</h3>
+
+<ul>
+    <li><b><big><em>*</em></big></b> (asterisk) means that <b>any number (including none) of the same word's letters</b> can be in its
+        place.<br/>
+        This feature, in combination with the "Search for whole words" setting, allows finding
+        variations of the same word. E.g. <em>fare*</em> will find the words <em>fare</em>, <em>fared</em>, <em>farewell</em>,
+        but not <em>welfare</em> and not <em>warfare</em>.<br/>
+        It also allows finding words ending the same. E.g. <em>*gite</em> will find <em>Agagite</em> and <em>Areopagite</em>.
+    </li>
+    <li><b><big><em>_</em></big></b> (underscore) means that <b>any single letter of the same word</b> can be in its place.<br/>
+        E.g.: <em>grave_</em> will find both <em>graven</em> and <em>graves</em>.
+    </li>
+</ul>
+
+<h3>Search settings</h3>
+
+<p>Search settings allow you to narrow down (filter) search results. When all the filtering settings
+    are unchecked (and this is a default state), you will get the widest possible set of search results.</p>
+
+<h4>Search for whole words (<em>+w</em>)</h4>
+
+<p>This setting tells MyBible to treat the entered text as complete word(s) to find, without any
+    added beginning or ending. For example, with this setting being on, a search for <em>spouse</em> will
+    ignore the words <em>espouse</em>, <em>spouses</em>.
+</p>
+
+<p>This setting also helps to find word forms using <em>*</em>. For instance, while searching for whole
+    words, <em>repair*</em> with find <em>repair</em>, <em>repaired</em>, <em>repairs</em>, but not <em>prepare</em>.
+</p>
+
+<h4>Search words in the specified order (<em>+r</em>)</h4>
+
+<p>This setting tells MyBible to mind the order of words you have entered while allowing
+    some other words between them.</p>
+
+<h4>Search accounting for accents and similar characters (<em>+a</em>)</h4>
+
+<p>This setting takes into account accents you have entered - this is useful
+    when presence of those makes a difference for you in search results.
+</p>
+
+<h4>Case sensitive search (<em>+c</em>)</h4>
+
+<p>With this setting on, MyBible will, for example, ignore the words
+    <em>Lord</em> and <em>LORD</em> if you have entered the word <em>lord</em> to be found.</p>
+
+<!-- !!! Added after sending this whole new search help text to translation. -->
+<h4>Search distinguishing quote and dash types (<em>+q</em>)</h4>
+
+<p>This setting will allow you to search for special kinds of asymmetric quotes and long dashes.
+    When this setting is not set, MyBible treats any entered kind of double quotes as straight
+    double quotes, and thus assumes you've meant to enter an exact phrase (see above).</p>
+
+<h4>Search only in words of Jesus (<em>+j</em>)</h4>
+
+<p>This setting can be useful if you want to search for some word(s)
+    among the words which the Bible conveys as direct words said by Jesus.
+</p>
+
+<p>Another possible application of this setting is to find where and how many verses
+    contain direct words of Jesus in particular books of the Bible. For that,
+    you could limit selection of books you search in (obviously, it makes sense to
+    select only New Testament books in this case), and enter nothing as the text to search for.
+    This will essentially tell MyBible to find (and thus also to count) all the verses
+    where Jesus' words are present in the book(s) you have selected.
+</p>
+
+<p>This setting only works in Bible modules having a corresponding markup in them.
+
+<h4>Search only in inserted words (added by translators) (<em>+i</em>)</h4>
+
+<p>This setting allows you to discover how many words in a Bible translation
+    into your language the translators of the Bible had to add to make the sentences
+    coherent and reading smoothly. This will also remind you that there is no and cannot possibly
+    be a "perfect" translation of the Bible from the languages of its original manuscripts.
+</p>
+
+<p>Also, let's assume for a moment that you want to deliver a message on analysis of some word usage
+    in different places of the Scriptures. You might want to check first, using this MyBible search
+    feature, where this word, possibly brightly standing out in some verse, is actually an inserted
+    word, - that is, being absent in the Hebrew or ancient Greek manuscripts of the Scriptures.
+    This could help you be more careful with preaching in that context.
+</p>
+
+<p>This setting only works in Bible modules having a corresponding markup in them.
+
+<h4>Search only in highlighted or underlined text (<em>+h</em>)</h4>
+
+<p>This setting allows you to limit a search only to words that you have highlighted or underlined
+    in the Bible module being searched.</p>
+
+<p>This setting can also help you find all the places you have highlighted in the Bible module:
+    activate it and run a search when no text is entered in the search string. All the words
+    that you have highlighted or underlined in a Bible module will be shown underlined
+    in the search results.
+</p>
+
+<p>There is a possibility of searching for a particular color of highlighting or for a particular
+    type/color of underlining.</p>
+
+<h4>Max number of verses between sought words (<em>+1</em>)</h4>
+
+<p>This is a powerful setting that will let you overcome splitting of the Bible text into verses
+    and chapters (you should be aware that such a splitting is not a property of the original
+    Bible manuscripts in Hebrew and ancient Greek).
+</p>
+
+<p>The number in this setting tells MyBible the allowed verse numbering difference between verses
+    that contain your sought words. 1 means one verse apart, that is, two verses that contain your sought words
+    can be adjacent. 2 means that one verse that does not contain your sought words can be in between the two verses that do,
+    and so on. 0 means that you want all your entered words to be in the same verse.
+</p>
+
+<h3>Representing of results</h3>
+
+<p>These settings allow you to see more or less information in verses found by your search.</p>
+
+<h4>Highlight words of Jesus... (<em>+m</em>)</h4>
+
+<p>This setting lets you turn off showing of words of Jesus in bold and showing of inserted
+    words in italic, as that could be distracting in some cases.</p>
+
+<h4>Show Strong's numbers (<em>+s</em>)</h4>
+
+<p>This rather powerful setting lets you see the words of the original Bible manuscripts
+    that were translated into your language. This setting has several fine-tuning sub-settings
+    shown if you tap the "Configure" button. Note that an ability to show a pronunciation,
+    a shown definition and so on depends on the features of the Strong's lexicon module that
+    you have selected when accessing Strong's numbers from the Bible window.
+</p>
+
+<p>This setting can make you see interesting things, e.g. if you search for the word <em>love</em>
+    in words of Jesus, you will see that different Greek words are used for that
+    in different contexts.
+</p>
+
+<h4>Single occurrence of every verse found by a search (<em>+v</em>)</h4>
+
+<p>Here is when this setting can be helpful. Imagine you remember a phrase you want to find,
+    but do not remember in which Bible translation it was stated like that, and you just want
+    to find that place and then study it attentively using your favorite Bible translation.
+    Imagine you have 5 Bible modules downloaded, 3 of them have this place as you remember,
+    2 others have it translated slightly differently. So you run a search in several Bible modules
+    (see below), and if this setting is not set, you will get your verse repeated 3 times
+    in the search results (from 3 different Bible modules), while you just wanted to find where
+    it was, not how it was spelled in those 3 modules. So you set this setting and get the sought
+    place reported just once (in the first Bible module where it was found, and you have a way
+    in MyBible to arrange the modules to search in a particular order, using module sets).
+</p>
+
+<h3>Searching in several Bible modules</h3>
+
+<p>The big search button works for the current Bible module. There is also a smaller search button,
+    which allows you to search in several Bible modules.</p>
+
+<p>Searching in several Bible modules is based on <b>module sets</b>. Long-touch the smaller search button to
+    work with module sets and to select a module set to be searched. There are three predefined module sets
+    (with the default one being "All Bible modules in a language of the current Bible module"). You can define
+    additional module sets; note that you can manually assign/change the order of Bible modules placed
+    into a module set.
+</p>
+
+<h3>Combining of search fragments</h3>
+
+<p><i><small>This is a bit advanced search feature, but keep reading if you want to master an additional
+    power when searching in MyBible - there is nothing too complicated, it is just a bit like
+    building a logical or mathematical expression, and it could serve you well some day.</small></i>
+</p>
+
+<p>When you just enter words in the text to search for, MyBible assumes that you want to find all those
+    words - that is, to combine them by "and". But you have two special characters,
+    <b><em>&amp;</em></b> (meaning "and") and <b><em>|</em></b> (meaning "or") to tell MyBible
+    explicitly how to combine the entered fragments.
+    Once you enter those characters in your text to search, MyBible will no longer operate
+    space-separated words but will consider the texts entered in between those characters as
+    fragments to combine. In addition to those special characters you can use parentheses
+    to group search conditions (combining "by &amp;" has a higher priority than combining "by |").
+</p>
+
+<p>Here is an example of how this might look like:
+    <br/><em>(servant | prison) &amp; debt &amp; ~borrow</em>
+    <br />which means: finding a verse mentioning "servant" or "prison", which would also refer
+    to a "debt" but wouldn't mention "borrow"
+</p>
+
+</body>
+</html>

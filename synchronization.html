@@ -1,0 +1,55 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>MyBible</title>
+</head>
+<body>
+
+<h2>Sinhronizacija</h2>
+
+<p>MyBible podržava sinhronizaciju između različitih uređaja istog korisnika.
+
+<!-- !!! Please translate the following paragraph -->
+<p>A set up data synchronization automatically means that you have in the cloud a backup copy
+    of your data entered or downloaded in MyBible - for cases like loss of a device,
+    accidental deletion of MyBible along with all its data, a glitch when installing a new version of MyBible.
+
+<h3>Princip sinhronizacije</h3>
+
+MyBible sinhronizacije je zasnovana na sledećem:
+<ul>
+    <li>Svi podaci koje koristi MyBible čuvaju se na SD kartici ili unutrašnjoj memoriji uređaja u <b>/MyBible</b>
+        alebo <b>/Android/data/ua.mybible/files/MyBible</b>folder.
+    </li>
+    <li><b>MyBible/user</b> podfolder sadrži sve podatke koje korisnik unese / prikupi (podešavanja, obeleživači,mesta za čitanje, beleške, teme).
+    </li>
+    <li>Sinhronizacija fajlova vrši se sa spoljnom aplikacijom koja radi sa Google disk uslugom ili uslugom Dropbox.
+    </li>
+    <li>MyBible detektuje i učitava spoljne promjene korisničkih podataka dok se prozor Biblije koristi.</li>
+</ul>
+
+<h3>Podešavanje MyBible sinhronizacije</h3>
+
+<p>Koristite aplikacije za sinhronizaciju spoljnih fajlova kao što su Dropsync ili Drive Autosync za sinhronizaciju <b>MyBible</b>
+    foldera između vaših uređaja preko Google diska odnosno Dropboxa.</p>
+
+Koraci za podešavanje MyBible sinhronizacije:
+<ul>
+    <li>Instalirajte aplikaciju za sinhronizaciju datoteka sa Google Play, npr. Dropsync.</li>
+    <li>Konfigurišite aplikaciju za sinhronizaciju datoteka da biste sinhronizovali <b>MyBible</b> folder sa server uslugom (npr. Google disk), koristeći <b><i>dvosmernu sinhronizaciju</i></b>.<br/>Napomena: Besplatna verzija aplikacije za sinhronizaciju ograničavaju otpremanje na cloud server do 8Mb, tako da neki MyBible moduli neće sinhronizovati. Ako ne želite da trošite novac na Pro verziju (koja se plaća) aplikacije za sinhronizaciju,možete sinhronizovati samo <b>MyBible/user</b> podfolder i ručno preuzmete module koji nedostaju.
+    </li>
+    <li>U aplikaciji za sinhronizaciju datoteka omogućite opciju Autosync i izaberite željeni interval automatske sinhronizacije (što utiče na prenos ažuriranih datoteka iz oblaka u uređaj).
+    </li>
+</ul>
+
+<p>
+Kada su gore navedeni koraci izvršeni,koristite istu aplikaciju za sinhronizaciju foldera za isti korisnički račun i taj folder u cloud serveru će se sinhronizovati sa svim vašim uređajima koje povežete.
+</p>
+
+<h3>Problemi sa sinhronizacijom</h3>
+
+<p>Kada je podešena MyBible sinhronizacija, pretpostavlja se da korisnik neće koristiti MyBible na više od jednog uređaja u isto vreme. Kada radite, MyBible stalno ažurira datoteku postavki, tako da uz paralelnu upotrebu MyBible na nekoliko sinhronizovanih uređaja nije moguća stvarna sinhronizacija postavki MyBible i drugih korisničkih podataka. Međutim, ako to se dešava, aplikacija za sinhronizaciju datoteka će otkriti sukob ažuriranja datoteke. Najnovije ažurirane datoteke će onda ostati, potpuno nadjačavajući ranije napravljeno ažuriranje sa drugog uređaja. Takođe,na uređaju će biti kreirane dodatne datoteke, a riječ "sukob" će biti dodana oznakom vremena u njihovim imenima(takve datoteke se obično mogu jednostavno izbrisati kada se prime).</p>
+
+</body>
+</html>

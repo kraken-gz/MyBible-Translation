@@ -1,0 +1,452 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="menu_usage_tips">Prikaži savete za upotrebu</string>
+
+    <string name="tip_book_selection">Izbor biblijske knjige</string>
+    <string name="tip_book_selection_tip">\u25cf Posljednja posećena knjiga Biblije je istaknuta.\n\u25cf <b>Dodirnite</b> na skraćenici knjige da nastavite sa izborom poglavlja te knjige.\n\u25cf <b>Dugi dodir</b> na skraćenici knjige da biste tu knjigu otvorili od početka (ovo je prečica - nema izbora poglavlja i stiha).</string>
+
+    <string name="tip_chapter_selection">Izbor poglavlja biblijske knjige</string>
+    <string name="tip_chapter_selection_tip">\u25cf Knjiga koju odaberete u poglavlju je prikazana u zaglavlju prozora.\n\u25cf Poslednje posećeno poglavlje u izabranoj knjizi je istaknuto.\n\u25cf <b>Dodirnite</b> na broj poglavlja da nastavite sa izborom stiha tog poglavlja.\n\u25cf <b>Dugi dodir</b> na broj poglavlja da biste otvorili poglavlje od početka (ovo je prečica do\npreskočite izbor stiha).</string>
+
+    <string name="tip_bible_window_configurable_button">Podesiva dugmad</string>
+    <string name="tip_bible_window_configurable_button_tip">\u25cf Prisutnost i redosled tastera za pogodnost
+        je podesivo u Podešavanja.
+    \n\u25cf Možete podesiti podesiva dugmad koja nisu bila na zaglavlju
+        na jedan od prikazanih tastera koji se mogu konfigurisati.
+    </string>
+
+    <string name="tip_modules_manipulation">Upravljanje modulima</string>
+    <string name="tip_modules_manipulation_tip">\u25cf Postoje tri moguća stanja 
+        modula: dostupan za preuzimanje, preuzimanje i samo lokalno (nije dostupno za ponovno preuzimanje zbog nedostatka internet veze).
+    \n\u25cf Ako nema Internet veze, svi moduli će se pojaviti samo kao lokalni.
+    \n\u25cf Izaberite module tako što ćete ih dodirnuti, a zatim pomoću dugmadi na traci za izbor režima manipulišite njima.
+    </string>
+
+    <string name="tip_scroll_by_touch">Listajte klikom</string>
+    <string name="tip_scroll_by_touch_tip">\u25cf Dodir na desnoj strani prozora Biblije pomiče tekst nadole.
+    \n\u25cf Dodir s lijeve strane prozora Biblije pomiče tekst nagore.
+    \nNapomena: Ovo podrazumevano ponašanje se može promeniti preko Podešavanja.
+    </string>
+
+    <string name="tip_night_mode">Noćni režim</string>
+    <string name="tip_night_mode_tip"><b>Pritisak sa 3 prstiju</b> je prečica za uključivanje i isključivanje noćnog režima.
+    </string>
+
+    <string name="tip_strongs">Strong-ovi brojevi</string>
+    <string name="tip_strongs_tip">\u25cf Strong-ovi brojevi može se uključiti u biblijskom modulu (Strong-ovi brojevi su registar reči iz Biblije preko kojih pretražujete željenu reč iz Biblije,slično indeksu) sa skraćenicom koja završava sa \'+\' (KJV+, RST+).\n\u25cf Aktivirani Strong-ov broj pokazuje odgovarajući Strong-ovu temu leksikona u odvojenom prozoru.Ovo radi samo ako imate Strong-ov leksikon preuzet.\n\u25cf Podrazumevani način aktiviranja Strong-ovih brojeva je <b>dupli klik</b>, međutim, može se promijeniti u <b>jedan klik</b> preko Podešavanja.</string>
+
+    <string name="tip_next_previous_chapter">Sljedeće / prethodno poglavlje</string>
+    <string name="tip_next_previous_chapter_tip">\u25cf <b>Listaj nalevo</b> da pređete na sledeće poglavlje.
+    \n\u25cf <b>Listaj nadesno</b> da pređete na prethodno poglavlje.
+    \n\u25cf Možete i da dodate tastere u zaglavlju za ovo. Napomena: ako imate veliki ekran, ova dugmad
+        su prikazana podrazumevano
+    </string>
+
+    <string name="tip_start_screen">Početni ekran</string>
+    <string name="tip_start_screen_tip">Početni ekran vam pomaže da brzo skočite na željeno mesto.
+    \n\u25cf Početni ekran prikazuje mesta za čitanje.
+    \n\u25cf Početni ekran takođe prikazuje današnje stavke iz trenutno izabranog plana čitanja.
+    \n\u25cf MyBible prikazuje početni ekran nakon što je zatvoren \"Nazad\" tasterom.
+    \n\u25cf Početni ekran se može prikazati i ručno - koristite odgovarajuće dugme u zaglavlju prozora Biblije
+    </string>
+
+    <string name="tip_report_module_defect">Prijavite grešku modula</string>
+    <string name="tip_report_module_defect_tip">Možete lako prijaviti pronađenu grešku modula (greška, pogrešno slovo)
+        putem e-maila tako što ćete izabrati mesto(a) sa greškom i <b>dugim prtiskom</b> na \"Podeli\" taster.
+    </string>
+
+    <string name="tip_next_previous_book">Sledeća / prethodna knjiga</string>
+    <string name="tip_next_previous_book_tip">\u25cf <b>Listaj nalevo sa dva prsta</b> da pređete na sledeću knjigu.
+    \n\u25cf <b>Listaj nadesno sa dva prsta</b> da pređete na prethodnu knjigu.
+    \nNapomena: Postoji podešavanje da se ovo isključi,u tom slučaju dodir sa dva prsta otvara ekran za izbor knjiga.
+    \n\u25cf Možete i da dodate tastere u zaglavlju za ovo.
+    </string>
+
+    <string name="tip_reading_places">Mesta za čitanje</string>
+    <string name="tip_reading_places_tip">\u25cf Mesta za čitanje omogućavaju vam da brzo označite mesto sa kojeg ćete nastaviti
+        čitanje.
+    \n\u25cf Svako mesto za čitanje ima čitav niz knjiga za koje je primenljivo. Dok čitate, možete postaviti jedan od
+        definisanih mesta za čitanje koja pokrivaju vašu trenutnu knjigu po opsegu njihovih knjiga.
+    \n\u25cf Ako počnete koristiti mjesta za čitanje, pobrinite se da vaša definisana mjesta za čitanje pokrivaju celu Bibliju
+        po opsegu njihovih knjiga. Da biste to uradili, idite na Meni -> Mesta za čitanje.
+    \n\u25cf Da biste postavili mesto za čitanje, izaberite jedan stih i kliknite na dugme za čitanje u zaglavlju prozora.
+    \n\u25cf Prelazak na već postavljena mesta za čitanje dostupno je sa početnog ekrana.
+    </string>
+
+    <string name="tip_bookmark_sets">Skup obeleživača</string>
+    <string name="tip_bookmark_sets_tip">\u25cf MyBible omogućava vam da imate nekoliko različitih skupova obeleživača.
+    \n\u25cf Podrazumevani skup obeleživača se naziva \"obeleživači\"; takođe možete da kreirate dodatne skupove obeleživača
+        ili ih uzeti od drugih MyBible korisnika.
+    \n\u25cf Možete odabrati postavku obeleživača pomoću trake sa radnjama u \"Obeleživači\" prozoru,
+        \"Izaberi skup obeleživača...\" stavku.
+    \n\u25cf Kada vam drugi korisnik pošalje fajl za postavljanje obeleživača, samo postavite taj fajl u
+        /MyBible/user/bookmarks folder na uređaju - on će zatim biti dostupan kao skup obeleživača.
+    \n\u25cf Dok birate skup obeleživača, dugim dodirom na ime skupa obeleživača možete da delite
+        skup obeleživača koji imate sa drugim korisnikom.
+    \n\u25cf U \"Obeleživači\" prozoru možete izvesti izabranu kategoriju obeleživača u zasebni fajl.
+    \n\u25cfU \"Obeleživači\" prozoru takođe možete spojiti skup obeleživača koje ste primili od drugog korisnika u vaš trenutni skup obeleživača
+
+    </string>
+
+    <string name="tip_random_verse">Nasumični stih</string>
+    <string name="tip_random_verse_tip">\u25cf \"Idi na nasumični stih\" stavka menija i (ikonica) u zaglavlju mogu biti korisni\nkada tražite mjesto za čitanje iz Reči Božje.\n\u25cf <b>Dugi dodir</b> na \"Idi na nasumični stih\" stavku menija ili u zaglavlju vam omogućava da prilagodite ovu funkciju.\n\u25cf Možete odabrati knjigu(e) iz kojih ćete otvoriti nasumične stihove.\n\u25cf Možete tražiti \"Prvi stih nasumičnog poglavlja\".</string>
+
+    <string name="tip_profiles">Profili</string>
+    <string name="tip_profiles_tip">\u25cf MyBible sada vam dozvoljava da imate nekoliko imenovanih skupova postavki,         suštinski formirajući \"profili\" koji vam omogućuju prebacivanje između različitih konfiguracija / spremljenih stanja MyBible.     \n\u25cf Možete imati različite skupove prozora, izbor tema, istoriju navigacije i gotovo sve         ostale postavke MyBible su konfigurisane / pripremljene nezavisno u svakom profilu.     \n\u25cf Možete kreirati, izabrati, preimenovati, izbrisati, podeliti MyBible profile preko \"Profili\" menu stavke.     \n\u25cf Isti skup tema, skupova obeleživača, mesta za čitanje, naglašene / podcrtane reči         i primedbe koriste svi profili.</string>
+
+    <string name="tip_words_highlighting">Označene reči</string>
+    <string name="tip_words_highlighting_tip">\u25cf Možete naglasiti reči i fraze u biblijskom prevodu.
+    \n\u25cf Da biste označili bojom ili linijom, izaberite krajnje levo dugme u prozoru Biblije
+        nakon dugog dodira stiha.
+    \n\u25cf Započnite označavanje sa  <b>horizontalnim pokretom</b> prsta. Nakon horizontalnog pokreta prsta (udesno ili ulevo)
+        možete pomerati prst gore i dole. Sve reči između početne tačke kretanja
+        i trenutna pozicija prsta će biti označena.
+    \n\u25cf U zaglavlju možete uključiti brisač za označavanje.\nImajte na umu da postoji i odvojeni
+        mod brisanja, bira se sa krajnjim levim dugmetom u zaglavlju prozora Biblije.
+    \n\u25cf Dodirivanje jedne reči uklanja njeno označavanje, tako da možete lako da ispravite / obrišete označavanje od reči do reči.
+    \n\u25cf Da biste izašli iz režima označavanja, napravite još jedan dugi dodir na oblasti za biblijski tekst ili kliknite
+         \"Nazad\" dugme vašeg uređaja.
+    </string>
+
+    <string name="tip_remarks">Napomene</string>
+    <string name="tip_remarks_tip">\u25cf Umetanje napomena u biblijski tekst može se aktivirati sa krajnje leve strane
+        u zaglavlju prozora Biblije nakon dugog dodira stiha.
+    \n\u25cf Dodirnite reč na koju želite da ubacite napomenu.
+    \n\u25cf Dok se jedna napomena uređuje, možete dugim dodirom dodirivati drugu riječ u biblijskom tekstu da
+        ponovo pozicionirate tu napomenu koja se uređuje.
+    \n\u25cf Oznaka za napomenu je prikazana u biblijskom modulu kao broj poglavlja plus broj napomene
+        u tom poglavlju.
+    \n\u25cf Dvaput dodirnite oznaku za napomene u biblijskom tekstu da biste otvorili iskakući komentar.
+    \n\u25cf Dugim dodirom na iskačući komentar za napomene da biste ih mogli uređivati.
+    </string>
+
+    <string name="tip_dictionaries">Rečnici</string>
+    <string name="tip_dictionaries_tip">MyBible podržava Strong-ov leksikon, Biblijske rečnike,
+         druge vrste rječnika, tako da možete temeljno proučiti Bibliju na svom jeziku ili
+        bolje razumevanje prevoda Biblije na stranom jeziku.
+    \n\u25cf Poseban način pristupa Strong-ovom leksikonu je da <b>duplim klikom na Strong-ov broj</b>, kada su
+        ovi brojevi prikazani u biblijskom modulu koji podržava ovu karakteristiku.
+    \n\u25cf Možete aktivirati tako što <b>dvaput dodirnete bilo koju reč</b> u biblijskom modulu, kako bi MyBible pogledao 
+        ukucanu reč za vas u rečnicima koje ste preuzeli (i nisu označeni kao neaktivni).
+    \n<i>Napomena:Ovo vam takođe omogućava da ne prikazuje Strong-ove brojeve i takođe biti u stanju da otvorite Strong-ov leksikonov za kucanje reči.
+        </i>
+    \n\u25cf Napravite <b>vertikalno listanje na modul dugme za izbor </b> u zaglavlju prozora Biblije
+        da biste videli ili promenili radnju na reč dvaput pritisnite.
+    \n<i>Napomena: Ovo je samo prečica za pogodnost, postoje detaljnija podešavanja za kontrolu ove funkcije</i>
+    \n\u25cf Prozor rečnika ima dva režima: Strong-ov Leksikon Režim i Rečnik Režim,
+        koje se mogu prebaciti pomoću dugmeta u zaglavlju.
+    \n\u25cf Kada dvaput kliknete na reč, prozor za Rečnik dobija i reč i prilog
+        Strong-ov broj (ako Biblijski modul podržava Strong brojeve). Tako prebacivanjem prozora Rečnika
+        možete videti članke za originalnu reč biblijskog rukopisa i za prevedene
+        reči.
+    \n\u25cf MyBible obezbeđuje veoma raznolik skup rečnika, tako da se može koristiti čak i kao rečnik
+        aplikacija. Dok je prozor rečnika u režimu rečnika, dodirnite dugme trenutne reči u zaglavlju,
+        i moći ćete da koristite moćni <b>pretraživač rečnika</b>.
+    \n\u25cf Još jedna moćna MyBible funkcija koja se odnosi na rečnike je <b>\"Reference (preporuke) na izabrani stih
+        iz aktivnih rečnika\"</b>. Ovo je dostupno preko posebnog dugmeta koje se pojavljuje na 
+        zaglavlju Biblije kada je izabran jedan biblijski stih.
+    \n<i>Objašnjenje: U mnogim biblijskim rječničkim navodima postoje reference na biblijska mjesta, pa kada
+        koristite gornju funkciju, MyBible pronalazi sve unose iz rečnika koji se odnose na odabrani stih
+        i daje vam listu za biranje. Probajte ovo - možete otkriti zanimljive usporedbe i činjenice..</i>
+    </string>
+
+    <string name="tip_tag_new">[Novi saveti]</string>
+    <string name="tip_tag_all">[Svi saveti]</string>
+    <string name="tip_tag_bible_window">Biblijski prozor</string>
+    <string name="tip_tag_bookmarks">Obeleživači</string>
+    <string name="tip_tag_tts">Tekst u govor</string>
+    <string name="tip_tag_ancillary_windows">Pomoćni prozori</string>
+    <string name="tip_tag_profiles">Profili</string>
+    <string name="tip_not_found">... nije pronađen nijedan rezultat ...</string>
+
+    <string name="tip_module_selection_button">\u25cf <b>Dodirnite</b> da izaberete modul za ovaj prozor.\n\u25cf <b>Dugi dodir</b> za ograničavanje opadajuće liste izbora modula\n(primjenjivo kada \"Brzi izbor modula\" postavka je uključena).</string>
+    <string name="tip_commentaries_position_button">Prikazuju se komentari knjiga.
+    \nKliknite za pomeranje komentara do početka.
+    </string>
+    <string name="tip_commentaries_sync_button">Ovo dugme pokazuje\nda prikazani komentari nisu u skladu (sinhronizovani) sa trenutnom pozicijom Biblije.\n\nDodirnite da biste sinhronizovali.</string>
+    <string name="tip_dictionary_topic_button">Pokazuje trenutnu temu rečnika.\n\nDodirnite da biste prešli na drugu temu.\n\nU ovom režimu Rečnik poziva alatku za pretragu rečnika.</string>
+    <string name="tip_devotional_position_button">Datum pouke i redni broj u seriji.\nZvezdica označava današnju pouku.\n\u25cf <b>Dodirnite</b> a biste izabrali datum na koji želite da idete.\n\u25cf <b>Duplo dodirnite</b> da odaberete novi početak serija pouka.</string>
+    <string name="tip_action_mode_select_button">Izaberite način rada
+        (mogućnosti nakon dugog pritiska na biblijski tekst).
+    </string>
+
+    <string name="tip_introductions">Uvodi</string>
+    <string name="tip_introductions_tip">Biblijski modul može sadržati uvod i uvode\nodređene knjige.\n\u25cf Celokupni uvod je dostupan <b>pritiskom na \"i\" dugme</b> u zaglavlju prozora Biblije, ili <b>duplim dodirom na \"Uvod\" reč</b> na početku bilo koje knjige.\n\u25cf Uvod u knjigu je dostupan <b>dugim dodirom na \"i\" dugme</b>\nu zaglavlju prozora Biblije, ili <b>duplim dodirom naslova knjige</b>.\n\nNapomena: ime knjige koja ima uvod je prikazano podvučenim fontom.\n\u25cf Iskakući uvod ima dve opcije prikaza: polu-prozor ili celi-prozor; prva opcija vam dozvoljava da pregledate uvod dok čitate biblijski tekst.</string>
+
+    <string name="tip_paragraphs_and_numbering">Paragrafi i numerisanje</string>
+    <string name="tip_paragraphs_and_numbering_tip">\u25cf Za pažljivije proučavanje biblijskog teksta možda želite\nda isključite numerisanje stihova ili čak i numerisanje poglavlja. Postoji <b>\"numerisanje poglavlja\"</b> i <b>\"numerisanje stihova\"</b> potvrdni okvir u \"Prikaži\" podmeni za ovo.\n\u25cf Neki biblijski moduli sadrže informacije o grupisanju stihova u logičke paragrafe.\nAko ne želite da vidite takvo grupisanje, izbrišite <b>\"paragrafi i razmaci\"</b>\npotvrdni okvir u \"Prikaži\" podmeni.\n\u25cf Podsetnik: <b>dugi dodir</b> na dugme sa trostrukim tasterom za brzo otvaranje \"Prikaži\" podmenija.</string>
+
+    <string name="tip_selected_verses_action">Izabrani stihovi</string>
+    <string name="tip_selected_verses_action_tip">Možete početi da birate stihove <b>dugim pritiskom</b> na stih.\n\u25cf U modu za odabir stiha, <b>dodir</b> selektuje / odbacuje stih\n\u25cf <b>Dugi pritisak</b> na <i>stih koji nije izabran</i> odabira niz stihova iz prethodno izabranog stiha do stiha koji je pritisnut dugim pritiskom (ovo pomaže da odaberete čitavo poglavlje, ako želite)\n\u25cf <b>Dugo dodirnite</b> na <i>izabrani stih</i> da uklonite izabrani stih i sve odabrane stihove koji se nalaze sa tim stihom.\n\n\nKada su izabrani stihovi, pojavljuje se traka sa radnjama za izabrane stihove, koja vam omogućava da:\n\u25cf Kopirate izabrane stihove u privremenu memoriju.\n\u25cf Podelite izabrane stihove.\n\u25cf Kreirate novi obeleživač koji se proteže od prvog do poslednjeg izabranog stiha.\n\u25cf ...  još mnogo toga - pogledajte dugmad na izabranoj traci za rad sa tekstom.</string>
+
+    <string name="tip_long_touch">Dugo pritisnite na Biblijski tekst</string>
+    <string name="tip_long_touch_tip">Postoje tri načina za ulazak u režim rada u prozoru Biblije:\n<b>dugi pritisak sa jednim prstom</b>,<b>dugi pritisak sa dva prsta</b>, i\n<b>dugi pritisak sa tri prsta</b> (poslednji samo ako je  isključena postavka za prebacivanje noćnog režima sa pritiskom sa tri prsta). Jedina razlika u ovim načinima ulaska u režim rada je predložena radnja odmah nakon ulaska u režim rada. Na taj način možete brže pristupiti trima različitim radnjama,\n\nna primer:\n\u25cf dugim pritiskom sa jednim prstom za izbor stihova\n\u25cf dugim pritiskom sa dva prsta za označavanje reči.\n\u25cf dugim pritiskom sa tri prsta za zapisivanje napomene.</string>
+
+    <string name="tip_simplified_mode">Pojednostavljeni režim</string>
+    <string name="tip_simplified_mode_tip">Kada prvi put pokrenete MyBible,\notvara se u <b>Pojednostavljeni režim</b>, da možete da se naviknete na aplikaciju\nbez preopterećenja svim mogućnostima proučavanja Biblije:\n\u25cf u ovom režimu videćete samo osnovno čitanje Biblije, navigaciju i obeležavanje\n\u25cf podrška za posebne pokrete će biti isključena\n\u25cf Strong-ovi brojevi, komentari, rečnici, dnevne pouke, podrška za tekst u govor.\n\u25cf podešavanje izgleda / tema će biti skriveno\n\n\nMožete aktivirati <b>Puni režim</b> iz Glavnog menija, Podešavanja da biste omogućili prebacivanje između\n<b>Puni režim</b> i <b>Pojednostavljeni režim</b>.</string>
+
+    <string name="tip_cross_references">Unakrsne reference</string>
+    <string name="tip_cross_references_tip">Unakrsne reference omogućuju vam da idete na mesto u Bibliji.\n\u25cf <b>Dupli dodir</b> da biste aktivirali unakrsnu referencu (ovo se može promeniti u dodir jednom u Podešavanjima).\n\u25cf Unakrsne reference se mogu preuzeti kao moduli.\n\u25cf U Punom režimu,možete takođe napraviti vaše, <b>prilagođene unakrsne reference</b>.\n\u25cf \"Reference\" prozor vam omogućava da vidite sve unakrsne reference za stih.\n\u25cf \"Reference\" prozor vam omogućava da odaberete unakrsne referentne module koji će biti prikazani u biblijskom tekstu.\n\u25cf Da otvorite \"Reference\" prozor, izaberite jedan stih i koristite \"Unakrsne reference za stih\" u zaglavlju prozora Biblije.\n\u25cf Da otvorite \"Reference\" prozor, takođe možete dvaput dodirnuti broj stiha</string>
+
+    <string name="tip_user_defined_cross_references">Korisnički definisane unakrsne reference</string>
+    <string name="tip_user_defined_cross_references_tip">Ako vidite da date unakrsne reference za preuzimanje\nnisu dovoljni za vas, možete napraviti skup sopstvenih unakrsnih referenci za lekcije, propovedi, itd.\nPrilagođene unakrsne reference imaju različitu boju u biblijskom tekstu za razliku od unakrsnih referenci koje se mogu preuzeti\n(ovo se može podesiti preko postavki teme).\n\u25cf Unakrsna referenca ima početak odakle ide i kraj.\n\u25cf Izaberite stih ili niz stihova odakle unakrsna referenca treba da počne.\n\u25cf Dodirnite <b>\"Dodaj unakrsnu referencu\" taster </b>u zaglavlju prozora Biblije.\n\u25cf Dođite do mesta u Bibliji od koje želite da počnete referencu, i <b>dugim pritiskom na stih</b>.\n\u25cf Klikni \"Dodaj\" (plus) dugme u  \"Prilagođena unakrsna referenca\" iskakući prozor.\n\u25cf Imajte na umu da morate da kreirate skup unakrsnih referenci (modul) pre nego što možete da dodate unakrsne reference - koristi meni sa tri tačke \"Prilagođena unakrsna referenca\" iskakući prozor.\n\u25cf Sjajno označeno \"unakrsna referenca\" iskakući prozor označava unakrsnu referentnu stranu koja će biti dodeljena kada dugo pritisnete biblijski stih.\n\u25cf \"Unakrsna referenca\" iskakući prozor prikazuje sve prilagođene unakrsne reference koje pokrivaju stih prikazan kao \"Od\".</string>
+
+    <string name="tip_reading_plans">Plan čitanja</string>
+    <string name="tip_reading_plans_tip">MyBible podržava planove za čitanje i <b>prilagođene planove za čitanje</b>.\n\u25cf Možete odabrati plan čitanja koji želite pratiti u \"Planovi čitanja\" prozor.\n\u25cf Možete dodeliti početni datum zasebno za svaki plan čitanja.\n\u25cf Početni ekran prikazuje stavke plana čitanja za taj dan.\n\u25cf \"Prati planove za čitanje\" opciju u \"Planovi čitanja\" prozoru vam pomaže da se krećete u slučaju da niste čitali tokom nekoliko dana , i omogućava vam da čitate unapred ako želite. MyBible će vas podsetiti na akciju\nove opcije kada je označite / poništite\n\u25cf Stavka plana čitanja će biti označena kao završena nakon što je pomerate tako da kraj bude potpuno vidljiv na ekranu.\n\u25cf Ako želite da vam MyBible pomogne da čitate određene knjige Biblije u određenom broju dana,pokušajte <b>prilagođene planove čitanja</b>.\n\u25cf Možete dodati prilagođeni plan čitanja dodirom na \"+\" u \"Planovi čitanja\" zaglavlju prozora.</string>
+
+    <string name="tip_favorites">Omiljeno</string>
+    <string name="tip_favorites_tip">Možete jednostavno označiti članak u rečniku, članak za komentare,\nili svakodnevna pouka kao vaš omiljeni, za brži pristup njima kasnije.\n\u25cf Imate <b>\"Omiljeno\" taster</b> u zaglavlju prozora Rečnika, u prozoru Komentara,\ni prozor Pouke. Ovo dugme prikazuje da li je članak koji gledate označen kao omiljeni ili ne.\n<b>Dodirnite</b> na ovo dugme da biste označili kao omiljeno; <b>dugo dodirnite</b> da vidite sve omiljene.\n\u25cf Dodeljivanje omiljenih je označeno vremenskom oznakom, tako da možete lako da vidite najnovije omiljene.\n\u25cf Omiljeni se čuvaju odvojeno za svaki profil. Međutim, možete uvesti omiljene iz drugog profila.\n\u25cf U glavnom meniju možete otvoriti prozor omiljenih <b>dugim dodirom</b> na glavnom meniju za odgovarajući prozor (primetite dodatnu malu zvezdu na stavkama glavnog menija).</string>
+
+    <string name="tip_commentaries_hyperlinks_in_bible_text">Linkovi na komentare u biblijskom tekstu</string>
+    <string name="tip_commentaries_hyperlinks_in_bible_text_tip">Možete koristiti linkove za komentare u biblijskom tekstu -\npogledajte \"Prikaži\" podmeni.\n\u25cf <b>Dugo dodirnite</b> na \"komentari\n...\" potvrdni okvir u \"Prikaži\" podmeni i otvara prozor\n\"Komentari u biblijskom tekstu\". Ovaj prozor vam omogućava da fleksibilno konfigurišete linkove za komentare koji će\nbiti prikazani u biblijskim knjigama.\n\u25cf <b>Dugo dodirnite</b> na \"Prozor komentara\" dugme u zaglavlju prozora Biblije, takođe vam omogućava da izaberete\nkomentare za biblijski tekst</string>
+
+    <string name="tip_data_backup">Rezervna kopija i sinhronizacija podataka</string>
+    <string name="tip_data_backup_tip">Ako imate žalbe i primedbe, označite delove biblijskog teksta, kreirajte MzBible profil, ili radite druge slične kreativne stvari u MyBible, možda treba da razmislite o pravljenju rezervnih kopija MyBible podataka, ili još bolje, o sinhronizaciji MyBible na nekoliko Android uređaja koje posedujete. Pročitajte <b>\"O nama\"</b> tekst         iz menija MyBible, a posebno u meniju <b>\"Sinhronizacija\"</b> sekciju tamo.</string>
+
+    <string name="tip_strong_number_usage">Strong-ovo korišćenje indeks brojeva</string>
+    <string name="tip_strong_number_usage_tip">Strong-ovo korišćenje indeks brojeva prozor vam omogućava da vidite gde se određeni Strong-ov broj pojavljuje (tj. Određena reč biblijskog rukopisa) i kako se on predstavlja u biblijskom prevodu koji gledate.Možete <b>pozvati prozor Strong-ovog korišćenja indeks brojeva </b> na sledeće načine\n\u25cf Dodirom Strong-ovog broja u zaglavlju iskakućeg prozora Strong-ovog leksikona.\n\u25cf Koristeći \"Korišćenja Strong-ovog broja\" dugmeta u zaglavlju prozora Rečnika. Prozor korišćenja Strong-ovog broja <b> vam pokazuje </b>:\n\u25cf Stihove gde se pojavljuju \n\u25cf Sažeti podaci o rečima koji se koriste u modulu za specificirani Strong-ov broj(eve). Koristeći taj rezime, možete da precizirate pretragu dodirom na određenu reč koji biblijski prevod koristi za Strong-ov broj.<b>Možeš takođe</b>:\n\u25cf Ukucati nekoliko Strong-ovih brojeva (odvojene razmakom) da biste odmah potražili njihovu upotrebu. Imate izbor: tražiti stihove koji sadrže sve unete Strong-ove brojeve ili da potražite bilo koji od unesenih Strong-ovih brojeva \n\u25cf Prilikom unošenja nekoliko Strong-ovih brojeva za traženje, koristite mogućnost za automatski unos svih srodnih Strong-ovih brojeva za prvi upisani Strong-ov broj.</string>
+
+    <string name="tip_notes">Prozor beleški</string>
+    <string name="tip_notes_tip">MyBible omogućava vam da održavate sistem beleški.\n\u25cf Možete da otvorite ppadajući meni beleški tako što ćete kucnuti na zaglavlje prozora Beleške.\n\u25cf Opadajući meni za beleške vam omogućava da uradite sve neophodne manipulacije sa beleškama:\nkreiranje, preimenovanje, brisanje, raspoređivanje u fascikle i podfoldere.\n\u25cf Beleške se čuvaju u MyBible/user/notes kao običan tekstualni fajl sa \".txt\" sufiks imenom.\nOvo vam omogućava da preuredite / preimenujete beleške koristeći bilo koji menadžer datoteka. Ovo takođe omogućava da dobijete vaše beleške\nna drugom mobilnom uređaju, na laptopu ili sa Interneta - kao rezultat MyBible sinhronizacije podataka\n(u vezi sinhronizacije podataka pogledajte \"O nama\" tekst dostupan iz menija MyBible).\n\u25cf Režim samo za čitanje u prozoru Napomene će zaštititi vaše beleške od slučajnog oštećenja.\n\u25cf U režimu „samo za čitanje“ prozoru „Beleške“, biblijska mesta navedena u beleškama\nautomatski postaju hiperveze na odgovarajuća biblijska mesta.</string>
+
+    <string name="tip_window_placement">Prilagođavanje prozora</string>
+    <string name="tip_window_placement_tip">Veličine prikazanih prozora možete prilagoditi pojedinačno,\ni možete zameniti mesta prikazanih prozora.\n\u25cf Uđite u režim prilagođavanja prozora pomoću\n<b>dugog pritiska najšireg dugmeta</b>\n(taster za izbor pozicije / teme) u bilo kom od prikazanih prozora.\n\u25cf Pojavljene svetle linije pokazuju granice prozora.\n<b>Povucite granice sa okruglim ručkama</b> da promenite korišćenje prostora između dva susedna prozora\noko granice.\n\u25cf <b>Dodirnite okruglu ručku</b> da biste prikazali dugmad koja vam omogućavaju da premestite prozor da se nalazi na vrhu (ili lijevo) granice na drugo mjesto.\n\u25cf Režim prilagođavanja prozora vam omogućava da vratite poziciju prozora na početno stanje, to je redosled koji je predložio MyBible, sa svim veličinama prozora podešenim prema \"Prozori i baloni\" elementu trenutne teme. Koristiti <b>Resetovanje</b> za to.</string>
+
+    <string name="tip_terminology">Terminologija</string>
+    <string name="tip_terminology_tip">
+    </string>
+
+    <string name="tip_verses_memorizing">Pamćenje stihova</string>
+    <string name="tip_verses_memorizing_tip">MyBible sada vam može pomoći da zapamtite stih ili skup više stihova -
+        bilo koji biblijski deo teksta koji možete obeležiti oznakom u MyBible.
+    \n\u25cf MyBible nudi tri različite vježbe za pamćenje, koje su manje ili više poznate
+        i koristi se u postojećim specijalizovanim aplikacijama (kao što je "Zapamti me"): skrivanje reči, slaganje teksta,
+        prva reč.
+    \n\u25cf MyBible takođe nudi jedinstvenu vežbu zvanu ispravljanje glasom. U toj vežbi, kažete
+        Biblijski stih ili deo teksta koji pamtite, a MyBible vas sluša.
+        Zatim proverava ono što ste rekli pomoću izabranog biblijskog prevoda, i ispravlja vas govoreći vam
+        ako čuje grešku. Pomoću ove funkcionalnosti možete raditi na pamćenju važnih
+        Biblijskih odlomaka dok ste u šetnji - bez potrebe da gledate u ekran vašeg mobilnog uređaja.
+    \n\u25cf Možete pristupiti funkciji za Pamćenje stihova iz <b>Početni ekran</b>, od <b>bočni panel obeleživača</b>, od <b>režima akcije za izabrani stih(ove)</b>, ili sa <b>dugim pritiskom na
+        postojeći obeleživač u prozoru Biblije</b>.
+    \n\u25cf Stihovi za Pamćenje vam omogućava da izaberete i pratite obeleživače koje želite da zapamtite.
+        Za svaki odabrani obeleživač za pamćenje možete kreirati i podesiti
+        program pamćenja: koji od 4 tipa vežbanja treba uključiti; koliko puta dnevno svaki dan;
+        i koliko dana.
+    \n\u25cf Stihovi za Pamćenje prati vaš napredak.
+    \n\u25cf Možete odrediti vrijeme svakog dana za MyBible kako bi vas obavijestio da obavite vježbe pamćenja.
+    </string>
+
+    <string name="tip_tag_dictionaries">Rečnici</string>
+
+    <string name="tip_commentaries">Komentari</string>
+    <string name="tip_commentaries_tip">\u25cf Kada je <b><i>modul komentara</i></b> preuzet,\nkoristiti \"Komentari\" stavku menija da biste otvorili prozor Komentari\n\u25cf Komentari su sinhronizovani sa trenutnom pozicijom Biblije.\n\u25cf Ako kliknete na hipervezu u komentarima, sinhronizacija je isključena i dugme se sinhronizuje\nkomentari sa trenutnom pozicijom Biblije pojavljuju se u zaglavlju prozora komentara.\n\u25cf Postoje tri načina prikazivanja komentara u prozoru komentara:\n\n- \"Prikažite komentare relevantne za trenutni stih\"\n\n- \"Prikažite komentare relevantne za prikazani deo teksta\"\n\n- \"Prikažite komentare relevantne za ovo poglavlje\"\n\nDugmad u zaglavlju prozora Komentari će vam pomoći da\nprebacujete ove režime; taster za trenutno aktivni režim je istaknut.\n\u25cf <b>Kliknite na dugme za skraćenice komentara</b>što vam omogućava da izaberete drugi skup\nkomentara (ako je preuzeto).</string>
+
+    <string name="tip_devotions">Dnevne pouke</string>
+    <string name="tip_devotions_tip">\u25cf Kada je <b><i>modul pouke</i></b>\npreuzet, koristite stavku menija Pouka da biste otvorili prozor Pouke.\n\u25cf Dodirivanje hiperveze Biblijskog stiha u prozoru Pouka otvara odgovarajuće biblijsko mesto u\naktivni Biblijski prozor.\n\u25cf <b>Dvostrukim dodirom na dugme detalji o danu za pouku </b> možete dodeliti početni datum trenutnoj\npouci.\n\nPodsetnik: Podrazumevani početni dan je 1. januar.\n\u25cf Možete se kretati do prethodnih i narednih pouka pomoću tastera sa strelicama u zaglavlju prozora Pouka.\n\u25cf <b>Pritiskom na dugme detalji o danu za pouku </b>omogućava vam da otvorite pouku za određeni datum.\n\nPodsetnik: Rezultat zavisi od dodeljenog datuma početka te pouke.\n\u25cf <b>Pritiskom na dugme skraćenica za pouku</b> omogućava vam da izaberete neku drugu seriju predavanja\n(ako je preuzeto).</string>
+
+    <string name="tip_modules">Moduli</string>
+    <string name="tip_modules_tip">\u25cf Moduli u MyBible su nazvani materijali,\npreuzeti sa MyBible servera, namijenjeno njihovom proučavanju unutar aplikacije\n\u25cf MyBible grupiše module po svojoj destinaciji.\n\u25cf Nije potrebna internet veza za rad u MyBible-u sa već preuzetim modulima.\n\u25cf MyBible tim radi na ispravljanju prijavljenih grešaka u modulima.\nAplikacija podržava automatsko ažuriranje već preuzetih modula i omogućava vam da ažurirate module ručno\npo želji koristeći internet vezu.</string>
+
+    <string name="tip_bible_modules">Biblijski modul</string>
+    <string name="tip_bible_modules_tip">\u25cf Biblijski moduli sadrže tekstove Svetog pisma,\nna originalnim jezicima (hebrejski i grčki moduli) i na mnogim jezicima sveta.\n\u25cf Neki biblijski moduli sadrže Strong-ov indeks, koji omogućavaju otvaranje članaka u rječniku\nza jevrejske i grčke reči koje se koriste u originalnim rukopisima Starog i Novog zaveta.\nDa bi ovo funkcionisalo, potrebno je da se učita barem jedan modul Strong leksikona\n(leksikoni su dostupni među rečničkim modulima).\n\u25cf Neki biblijski moduli sadrže fusnote, koje su komentari prevodioca ili prevodioca biblijskog teksta za\nspecifična poglavlja i stihova. Fusnote se nalaze unutar biblijskih modula i zato se preuzimaju\ni brišu zajedno sa biblijskim tekstom.</string>
+
+    <string name="tip_dictionary_modules">Modul rečnika</string>
+    <string name="tip_dictionary_modules_tip">\u25cf Moduli rečnika vam omogućavaju da dobijete informacije\nna reči teksta (pogledajte savete o upotrebi rečnika u glavnom prozoru).\n\u25cf Među rečničkim modulima postoje Strong leksikoni koji vam omogućavaju da dobijete informacije\nna rečima originalnih biblijskih rukopisa kada čitate biblijski modul\n(ako je biblijski modul snabdeven Strong-ovim brojevima).\n\u25cf Da bi traženje rečnika funkcioniralo efikasno, MyBible treba rečnik za jezik teksta.\nMyBible će automatski odabrati odgovarajući rečnik za preuzimanje\nkada izaberete rečnik za preuzimanje za određeni jezik.</string>
+
+    <string name="tip_commentary_modules">Modul komentara</string>
+    <string name="tip_commentary_modules_tip">\u25cf Moduli komentara sadrže komentare Biblije\nu obliku članaka vezanih za određena poglavlja i stihove\n\u25cf MyBible ne podržava čitanje komentara uzastopno, kao knjiga, ali\nsamo kao odvojene članke povezane sa mestima u Svetom pismu. Na taj način se daje prioritet\nsamoj Bibliji, i čine je središtem čitaoca.</string>
+
+    <string name="tip_cross_reference_modules">Modul unakrsnih referenci</string>
+    <string name="tip_cross_reference_modules_tip">\u25cf Modul unakrsnih referenci nose informacije\nna paralelnim mjestima ili srodnim mjestima Svetog pisma.\n\u25cf Možete podesiti MyBible da prikaže unakrsne reference u biblijskom tekstu;\ntakođe možete proučavati unakrsne reference u posebnom prozoru.\n\u25cf Možete koristiti više unakrsnih referentnih modula istovremeno.</string>
+
+    <string name="tip_subheading_modules">Modul podnaslova</string>
+    <string name="tip_subheading_modules_tip">\u25cf Moduli podnaslova sadrže tekstove sa sažetkom / naslovom\nprikazani pred određenim poglavljima i stihovima Biblije - nisu povezani sa određenim biblijskim modulom.\n\u25cf MyBible dozvoljava da izaberete koji su već preuzeti moduli podnaslova koji će se prikazati u prozoru Biblije\n(zavisno od jezika modula Biblije).\n\u25cf Neki biblijski moduli nose svoje, ugrađene podnaslove.</string>
+
+    <string name="tip_reading_plan_modules">Moduli plana čitanja</string>
+    <string name="tip_reading_plan_modules_tip">\u25cf Moduli plana čitanja sadrže spiskove stihova         dodeljen sekvencijalnim danima za sistematsko ili tematsko proučavanje Biblije.     \n\u25cf MyBible omogućava vam da imate nekoliko planova za čitanje istovremeno i da kreirate         svoj plan čitanja (koji nije preuzet). Pogledajte savete o korišćenju planova u glavnom prozoru.</string>
+
+    <string name="tip_daily_devotion_modules">Moduli pouke</string>
+    <string name="tip_daily_devotion_modules_tip">\u25cf Svakodnevni moduli pouke nose kratke inspirativne duhovne tekstove,\njedan tekst dnevno, za niz dana.\n\u25cf Moduli svakodnevne pouke su najmanje vezani za glavni cilj MyBible-a, koji je duboko proučavanje Biblije\nZbog toga ova vrsta modula ima nizak prioritet u ažuriranju i proširenju.</string>
+
+    <string name="tip_bundle_modules">Paketi</string>
+    <string name="tip_bundle_modules_tip">\u25cfPaketi sadrže odabir različitih vrsta materijala: tekstove, fontove, teme izgleda, itd.     \n\u25cf Paketi koji ne sadrže tekstove nisu relevantni za određeni jezik i stoga su grupisani         na vrhu liste modula.     \n\u25cf Različiti paketi imaju različite svrhe - pogledajte opise specifičnih paketa.</string>
+
+    <string name="tip_bible_window_menu_button_tip">\u25cf <b>Dodirnite</b> Da prikažete MyBible meni.\n\u25cf <b>Dugi dodir</b> otvara \"Prikaži, ekran, merenje...\" podmeni.</string>
+
+    <string name="tip_submenu">Podmeni</string>
+    <string name="tip_submenu_tip">\"Prikaži, ekran, merenje...\" podmeni omogućava podešavanje izgleda MyBible sadržaja.\n\u25cf Ovaj podmeni ima nekoliko stranica koje možete okrenuti sa \"Sledeće\" i \"Prethodno\" u zaglavlju podmenija.\n\u25cf  \"Prikaži\" stranica vam omogućava da izaberete koje će se funkcije prikazati u prozoru Biblije. Napomenuti da po želji možete da kontrolišete izgled svakog prozora Biblije.\n\u25cf \"Ekran\" stranica vam omogućava da kontrolišete ceo izgled glavnog ekrana MyBible-a.\n\u25cf Na odeljku se nalazi poseban savet za korišćenje \"Merenje\" podmeni stranice.\n\u25cf \"Teme\" stranica vam omogućava da izaberete temu pojedinačno za svaki prozor.\n\nImajte na umu da <b>dugim dodirom na opadajućoj listi za izbor teme</b> otvarate izabranu temu za uređivanje u \"Teme\" prozor.\n\nTakođe imajte na umu da vam \"Automatski izaberi\" taster u  \"Teme\" podmeni stranici omogućava vam da dodelite posebne teme u vezi s određenim biblijskim prevodima ili određenim jezicima biblijskih prevodima.</string>
+
+    <string name="tip_font_size">Merenje</string>
+    <string name="tip_font_size_tip">Možete da podesite sve veličine fonta definisane u trenutnoj temi
+        koristeći <b>uštini da zumiraš pokrete</b> u prozoru Biblije:
+    \n\u25cf Započni uštini da zumiraš pokrete i <b>zadržite oko sekundu</b> da biste ušli u režim skaliranja (merenja).
+    \n\u25cf Dok skalirate sa dva prsta, posmatrajte veličinu uzorka teksta u \"Merenje\" podmeni.
+    \n\u25cf Prekinite gest da primenite novu veličinu. Ponovite pokret da biste dodatno prilagodili veličinu.
+    \n\u25cf Fino podešavanje skaliranja koristeći postotak unosa što je dostupno u \"Merenje\" podmeni.
+    \n\u25cf \"Otkaži\" taster u \"Merenje\" podmeni vraća skaliranje kao što je bilo pre otvaranja podmenija.
+    </string>
+
+    <string name="tip_selection_of_individual_words">Izbor pojedinačnih riječi</string>
+    <string name="tip_selection_of_individual_words_tip">Pored podrazumevanog režima odabira celih stihova (vidi \"Izabrani stihovi\" savet za korišćenje), MyBible takođe podržava izbor pojedinačnih reči, tako da možete izabrati delove stihova.\n\u25cf Kada pokrenete selekciju dugim dodirom na biblijskom tekstu, dugme \"Način odabira: pojedinačne riječi ili cijeli stih\" se pojavljuje.\n\u25cf Kada je uključen izbor pojedinačnih riječi, možete odabrati željene riječi sa <b>horizontalnim pokretom</b> vašeg prsta. Nakon što se krene u horizontali možete pomerati prst gore i dole. Sve reči između početne tačke kretanja i trenutna pozicija vašeg prsta će biti izabrana.\n\u25cf Dodirivanje reči prebacuje stanje odabira tako da možete ispraviti izbor po rečima\n\u25cf \"Nazad\" dugme na vašem uređaju završava režim odabira.</string>
+    <string name="tip_bible_window_menu_button">Dugme menija</string>
+
+    <string name="tip_modules_updates">Ažurirani moduli</string>
+    <string name="tip_modules_updates_tip">Pojaviće se modul <b>označen sa drugom bojom</b>, ako:
+        \n\u25cf Modul je ažuriran na jeziku za koji MyBible smatra da ga možete koristiti.
+        \n\u25cf Nakon ažuriranja modula niste  preuzeli (ažurirani) modul.
+    </string>
+
+    <string name="tip_long_touch_buttons">Dugmad koje možete dugo dodirnuti</string>
+    <string name="tip_long_touch_buttons_tip">U glavnom meniju i u zaglavima prozora,
+        stavke koje reaguju na dugim dodirom imaju ikone sa velikom okruglom tačkom u donjem desnom uglu.
+        Ovo vas podseća da se nekim dodatnim funkcijama može pristupiti dugim dodirom.
+    </string>
+
+    <string name="tip_favorite_dictionary_topics_in_balloon">Omiljene teme iz rečnika u balonu</string>
+    <string name="tip_favorite_dictionary_topics_in_balloon_tip">Kada konfigurišete otvaranje tema iz rečnika
+        u balonu takođe možete da konfigurišete prikazivanje dugmeta za pristup omiljenim temama na dnu balona -
+        potražite <b>\"Omogućite pristup omiljenim temama rečnika iz balona za rečnik\"</b> podešavanje.
+        To vam omogućava da brzo označite kao omiljene teme iz rečnika za koje smatrate da biste ih možda želeli brzo
+        ponovo pogledati.
+        \n\u25cf Da biste otvorili poslednji prikazani omiljeni članak iz rečnika u balonu, dodirnite na
+        <b>\"Omiljene teme iz rečnika\"</b> dugme u zaglavlju prozora Biblije.
+        \n\u25cf Navigacioni tasteri za napred i nazad ispod balona za rečnik premeštaju vas između vašeg označenog omiljenog
+        članka iz rečnika, koji su poređani redosledom odabranim u \"Omiljene teme iz rečnika\" prozoru
+        (<b>dugo dodirnite zvezdano dugme</b> ispod balona za pristup tom prozoru).
+        \n\u25cf Ova funkcija je kreirana uglavnom kako bi se vratila na omiljene mape, ali može vam poslužiti i za druge vrste
+        članaka iz rečnika.
+    </string>
+
+    <string name="tip_bible_window_translation_button">Dugme za Biblijski prevod</string>
+    <string name="tip_bible_window_translation_button_tip">\u25cf <b>Dodirnite</b> da odaberete Biblijski prevod\nza ovaj prozor.
+        \n\u25cf <b>Duplo dodirnite</b> da prikaže Strong-ove brojeve (radi samo ako sadrži biblijski modul\nStrong-ove brojeve).
+        \n\u25cf <b>Dugo dodirnite</b> da bi se ograničio izborni spisak biblijskih modula\n(primenjuje se kada je uključena postavka Brzi izbor modula).
+          \n\u25cf Skraćenica modula na dugmetu je <b>podvučeno</b>, ako je ovo skraćenica izabrana kao omiljeni za ovaj prozor koristeći 
+         \"Omiljeni Biblijski modul\" dugme u zaglavlju prozora.
+  </string>
+    <string name="tip_bible_window_translation_button_full_mode_tip">\u25cf Napravite <b>vertikalno prevlačenje na dole</b>
+        da prikaže posebno okruglo dugme koje omogućava da se vidi i promeni akcija dvostrukog dodirivanja reči u prozoru Biblije.
+    </string>
+
+    <string name="tip_dictionary_nuances">Nijanse rečnika</string>
+    <string name="tip_dictionary_nuances_tip">Funkciju pretraživanja rečnika možete pronaći na MyBible
+        da biste bili posebno korisni ako se setite sledećih nijansi:
+        \n\u25cf MyBible analizira vaše aktivne rečnike i pokušava da nađe jedan članak koji najbolje odgovara.
+        Međutim, rezultat zavisi od trenutnog rečnika, odnosno rečnika i Strong-ovog leksikona
+        koje ste izričito izabrali iz prozora rečnika ili iz balona rečnika. Imajte na umu da
+        Trenutni rečnik je označen oznakom.
+        \n\u25cf Kada vidite listu predloženih članaka iz rečnika, ne možete samo da izaberete željeni članak
+        ali željeni članak iz određenog rečnika: skraćenice rečnika na spisku su pojedinačno
+        kliknuti.
+        \n\u25cf Sledeće <b>vrste gesta</b> podržani su za biblijske reči:
+        \n(1) aktiviranje reči kao hiperveza (jednim ili dvostrukim dodirom)
+        \n(2) aktiviranje reči kao hiperveza plus dodatni dodir (drugi ili treći)
+        \n(3) trljanje reči vodoravno
+        \n(4) kružni gest koji horizontalno započinje rečju
+        \nJedno od sledećeg <b>akcije</b> može se dodeliti svakom od gore navedenih gestova nezavisno:
+        \n- nema akcije
+        \n- potražite u leksikonima Strong-a, zatim u rečnicima
+        \n- potražite u rečnicima, a zatim u Strongovim leksikonima
+        \n- potražite samo u Strongovim leksikonima
+        \n- potražite samo u rečnicima
+        \n- spisak svih pronađenih članaka
+        \nOve radnje možete dodeliti u  \"Djelovanje biblijskih riječi\" grupa podešavanja.
+        \nMožete brzo da se prebacujete između različitih radnji aktiviranja biblijske reči kao hiperveze
+        pomoću vertikalnog prevlačenja na dugmetu za biblijski modul.
+        \n\u25cf Tokom proučavanja Biblije pogodno je imati pristup samo Strongovim leksikonima, ili
+        samo rečnici (npr. mape). Savladajte pokrete za to i konfigurišite im poželjne radnje.
+    </string>
+
+    <string name="tip_bookmarks">Obeleživači</string>
+    <string name="tip_bookmarks_tip">Obeleživači vam omogućavaju da označite brojne susedne stihove,
+        i ovo obeležavanje biće primenljivo na bilo koji biblijski modul u kome se nalazi obeležena knjiga.
+        \n\u25cf Obeleživač se sastoji od tri komponente: obeleženi opseg stihova,
+        obojena i imenovana kategorija obeleživača i (opcionalno) komentar obeleživača.
+        \n\u25cf Pomoću \"Prikaži\" Podmeni možete odrediti koje komponente obeleživača treba prikazivati u biblijskom tekstu.
+        Obeleženi stihovi su obeleženi obojenom vertikalnom trakom (ovo je podrazumevano prikazano).
+        Ikona male stranice na vrhu trake sa obeleživačima znači da je u obeleživač unesen neki komentar.
+        \n\u25cf Prikazivanje komentara obeleživača u biblijskom tekstu može vam pomoći da lako vidite neke pripremljene i kategorisane
+        misli nakon određenih stihova, možda radi prenošenja poruke ili podsećanja na zabeležene misli sebi.
+        \n\u25cf Oznake u MyBible čuvaju se kao skupovi obeleživača. Korišćenje prozora obeleživača (dostupno iz menija)
+        možete da napravite nekoliko skupova obeleživača i da izaberete odgovarajući skup obeleživača koji odgovaraju situaciji
+        ili koristite različite skupove obeleživača u različitim MyBible profilima.
+        \n\u25cf <b>Bočni panel obeleživača</b> je predložen kao glavni alat za rad sa već postojećim obeleživačima.
+        \n\u25cf Dodirnite vertikalnu traku markera u biblijskom tekstu da biste u iskačućem prozoru prikazali listu obeleživača
+        pokrivajući odgovarajući biblijski stih.
+        \n\u25cf Dugo tapnite na obeleživač da biste ga uredili ili izbrisali.
+    </string>
+
+    <string name="tip_bible_window_position_button">Dugme za položaj Biblije</string>
+    <string name="tip_bible_window_position_button_tip">
+        \u25cf <b>Dodirnite</b> da izaberete knjigu Biblije\npočevši od knjige.
+        \n\u25cf <b>Dupli dodir</b> da izaberete novo poglavlje već izabrane knjige.
+        \n\u25cf Napravite <b>horizontalni pokret</b> na ovom dugmetu za ulazak u novi položaj Biblije pomoću tastature.
+        Ako vam je potreban konkretan broj stiha, možete ga odvojiti od broja poglavlja dvotačkom,
+        ili zarezom, tačkom ili jednostavno razmakom.
+    </string>
+
+    <string name="tip_tts">Tekst u govor</string>
+    <string name="tip_tts_tip">MyBible podržava <b>tekst u govor (TTS) sintezu govora za Biblijske module</b>.\n\n<i>Napomena: Ova funkcija se zasniva na Android TTS mehanizmu i govornim podacima specifičnim za jezik koji imate na uređaju.</i>\n\u25cf Koristite TTS taster u zaglavlju prozora Biblije da bi MyBible počeo da govori iz trenutnog stiha.\n\u25cf Kada postoje izabrani stihovi, TTS se izvodi samo za njih, sa mogućnošću automatskog ponavljanja.\n\u25cf Ako pređete na drugo mesto Biblije dok je govor aktivan, govor će se nastaviti\niz novog aktuelnog stiha.\n\u25cf Promena brzine sinteze će se primeniti kada počne sledeći stih.\n\u25cf MyBible takođe podržava <b>TTS za komentare, dnevne pouke i rečnike</b>.\n\u25cf Kada se komentari direktno prikazuju u biblijskom tekstu i otvaraju\nu balonu što je navedeno u podešavanjima <b>TTS biblijskog teksta će biti automatski otvoren i komentari će se čitati kada dolazi do njih</b>. Komentari su\nizgovoreni višim tonom glasa , tako da je po glasu moguće reći da li slušate\nna biblijski tekst ili na komentare.
+        \n\u25cf Mozete <b>ispraviti izgovor</b> reči koje sistemski sistem TTS pogrešno izgovara.
+        Da bi to učinili, u biblijskom tekstu <b>izaberite jednu reč</b> koji je izgovoren netačno,
+        zatim koristite <b>dugme sa ikonom uha</b> da se pokrene \"Poboljšanja reči za TTS\" prozor.
+    </string>
+
+    <string name="tip_word_enhancements_for_tts">Poboljšanja reči za TTS</string>
+    <string name="tip_word_enhancements_for_tts_tip">\"Poboljšanja reči za TTS\"
+        prozor vam omogućava da unesete, ispravite i održavate listu poboljšanja reči za bolji TTS.
+        Možete imati nekoliko imenovanih skupova poboljšanja reči;
+        takođe pogledajte u \"Moduli\" prozor za snopove koji se mogu preuzeti sa skupovima za poboljšanje reči.
+        \n\u25cf Poboljšanje reči za TTS može se postići postavljanjem akcenta na tačno mesto:
+        stavite kursor na tastaturi iza odgovarajućeg samoglasnika i dodirnite dugme strelicom nadole levo.
+        \n\u25cf Takođe možete da promenite slova reči da biste postigli njeno bolje izgovaranje od strane TTS-a.
+        \n\u25cf Poboljšanje možete uneti za bilo koje pojavljivanje reči ili za određeni
+        biblijski stih - ovo drugo ima prioritet tada
+        \n\u25cf <b>Google TTS engine</b> čini se da je više moguće kontrolisati za TTS izgovor,
+        pa ako imate Samsung uređaj, u Android podešavanjima dodelite Google pretvarač teksta u govor
+        da se koristi podrazumevano.
+    </string>
+
+    <string name="tip_bible_window_window_button">Dugme za kontrolu prozora</string>
+    <string name="tip_bible_window_window_button_tip">\u25cf Ako je prikazan samo jedan prozor <b>dodirnite</b> da otvorite novi prozor.
+        \n\u25cf Ako je prikazano nekoliko prozora, <b>dodirnite</b> za zatvaranje prozora koje pripada izabranom prozoru.
+        \n\u25cf <b>Dugi dodir</b> otvara opcije kontrole prozora.
+        \n\u25cf <b>Duplo dodirnite</b> da izaberete prozor za otvaranje referenci na Bibliju.
+        \n\u25cf Prekinuta kontura ikona ukazuje da prozori nisu sinhronizovani.
+        \n\u25cf Podcrtana ikona označava prozor odabran kao ciljni prozor za otvaranje referenci
+        u Bibliji (vidi podešavanja navigacije).
+    </string>
+
+    <!-- !!! Please translate from here and move this marker line to the bottom when done. -->
+
+    <!--
+    <string name="tip_bible_window_side_panel">Bookmarks side panel</string>
+    <string name="tip_bible_window_side_panel_tip">The side panel can be pulled from the left edge by a gentle horizontal
+        fling from the edge to the right. Side panel provides convenient access to the bookmarks of a selected
+        category.
+        \n\u25cf The side panel lets you see your bookmarks in different representations: bookmarked Bible text only,
+        your comments only, or both. Your can choose one of these using the <b>content control button</b>, in the lower right corner.
+        \n\u25cf The side panel lets you search/filter by fragments of words that you can enter in the search field.
+        The search field is shown by default but can be hidden if you do not needed it.
+        \n\u25cf Sometimes it is practical to see all the bookmarks you have made in a particular book or a part of the Bible.
+        You can then use the book set selection control.
+        \n\u25cf You can change the way your bookmarks are sorted .
+    </string>
+    -->
+
+    <!-- !!!  Please alter the below text to read like the above.
+         the essense of the change: a long touch on the content control button is replaced with a simple tap. -->
+    <string name="tip_bible_window_side_panel">Bočni panel obeleživača</string>
+    <string name="tip_bible_window_side_panel_tip">Bočni panel se može povući sa leve ivice blagim horizontalnim položajem idući do ivice udesno.
+        Bočni panel omogućava lak pristup obeleživačima odabrane kategorije obeleživača.
+        \n\u25cf Bočni panel vam omogućava da vidite vaše obeleživače u različitim prikazima: samo obeleženi tekst Biblije,
+        samo vaši komentari, ili oboje. Možete izabrati jedno od ovih koristeći <b>dugme kontrole sadržaja</b>, u donjem desnom uglu.
+        \n\u25cf Bočni panel vam omogućava da pretražite/filtirate po delovima reči koje unesete u polje za pretraživanje.
+        Polje za pretraživanje je prikazano podrazumevano, ali možete ga sakriti ako vam ne treba - koristeći <b>dugi dodir na dugme kontrole sadržaja</b>.
+        \n\u25cf Ponekad je praktično da vidite sve obeleživače koje ste napravili u pojedinoj knjizi ili delu Biblije.
+        Možete zatim koristiti set knjiga kontrole izbora - koristite dugi dodir na dugme kontrole izbora da ga sakrijete ili prikažete.
+        \n\u25cf Možete promeniti način na koji su obeleživači sortirani, ponovo koristeći dugi dodir na dugme kontrole sadržaja.
+    </string>
+
+</resources>
